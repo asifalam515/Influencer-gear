@@ -16,7 +16,7 @@ color: black;
 }
 
 /* header */
-header{
+header,main{
 margin-left:150px ;
 margin-right: 165px;
     }
@@ -43,5 +43,16 @@ margin-right: 165px;
 
 .logo{
     display: flex;
-    justify-content:space-between
+    justify-content:space-between;
+    margin-bottom: 100px;
+}
+/* card section */
+.card img{
+    width: 300px;
+    height: 257px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
